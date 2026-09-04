@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+}
+
+/*Cabeçalho*/
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(54, 46, 35);
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: rgb(94, 77, 57);
+    font-family:cursive
+}
+
+header {
+    color: rgb(54, 46, 35);
+    font-family: cursive;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 20px;
+}

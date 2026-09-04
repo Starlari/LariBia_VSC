@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade DOM</title>
+    <script>
+        function Mudartexto() {
+            document.getElementById("Título").innerText="Olá, professor e alunos";
+        }
+
+        function mudarCor() {
+            document.getElementById("Título").style.color="blue";
+        }
+
+    </script>
+</head>
+<body>
+    <h1 id="Título">Bem-vindo ao curso da FACEPE</h1>
+    <button onclick="Mudartexto()">Mudar o texto</button>
+        <button onclick="mudarCor()">Mudar a cor</button>
+    
+</body>
+</html>
